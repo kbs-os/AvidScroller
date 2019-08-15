@@ -19,6 +19,7 @@ Which shows how rediculous thecontest entry program is.
 <br>
 
 
+
 LICENCE
 -------
 
@@ -102,6 +103,7 @@ Requirements
 <br>
 
 
+
 Building
 --------
 
@@ -115,6 +117,7 @@ Download Avid Scroller from the GIT repository found here, and these commands:
 Note: you may need to be super user for last command. Debian derived 
 Distributions add 'sudo' before make install.
 <br>
+
 
 
 Quickstart
@@ -141,6 +144,7 @@ the rest is straight forward. The configuration file must be
 saved by using File > Save or it will not be written after
 exiting.
 <br>
+
 
 
 CLI
@@ -182,6 +186,8 @@ However the generated output config will be heavily commented to
 Guide you through the process. Or the front end can load your CLI
 Generated config to farther customize.
 <br>
+
+
 
 Heirerarchy of Configuration
 ----------------------------

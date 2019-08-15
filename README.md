@@ -1,18 +1,18 @@
 AVID SCROLLER & Simple Scroll Hook
 ----------------------------------
-
+<br>
 
 Scrolling Configuration Editor and Modifications
 Open Source and cross comparable : Windows/OSX/GNU-Linux
 
-CLI (written in C)
-GUI (written in Python)
-
+- CLI (written in C)
+- GUI (written in Python)
+<br>
 Written by : Kevin Swain
-
+<br>
 This software is free to redistribute in part or whole as your own as
 It is now a part of public domain. Learn!
-
+<br>
 Written for 2019 competition with programmerhumor.com
 Simple Scroll Hook is a proof of Concept on the fly scroll speed changer
 Which shows how rediculous thecontest entry program is.

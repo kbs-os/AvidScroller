@@ -16,6 +16,7 @@ It is now a part of public domain. Learn!
 Written for 2019 competition with programmerhumor.com
 Simple Scroll Hook is a proof of Concept on the fly scroll speed changer
 Which shows how rediculous thecontest entry program is.
+<br>
 
 
 LICENCE
@@ -45,6 +46,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org>
+<br>
 
 
 
@@ -64,6 +66,7 @@ for said OS.
 
 Python was chosen as the frontend language as it is multi
 platform as well.
+<br>
 
 
 
@@ -86,16 +89,17 @@ scroll Sunday.
 Avid scroller really takes scrolling to the next level. An
 example configuration file can be found in the build folder
 at settings.conf.
+<br>
 
 
 
 Requirements
 ------------
 
-CMAKE - Newest version, no lower than 2.6.3
-Python 2.7. Python 3 is not supported
-Builds are 32bit for comparability.
-
+- CMAKE - Newest version, no lower than 2.6.3
+- Python 2.7. Python 3 is not supported
+- Builds are 32bit for comparability.
+<br>
 
 
 Building
@@ -114,6 +118,7 @@ make install
 
 Note: you may need to be super user for last command. Debian derived 
 Distributions add 'sudo' before make install.
+<br>
 
 
 Quickstart
@@ -139,6 +144,7 @@ Avid Scroller will find all of your applications. from there
 the rest is straight forward. The configuration file must be
 saved by using File > Save or it will not be written after
 exiting.
+<br>
 
 
 CLI
@@ -152,24 +158,25 @@ Other relevant flags:
 
 ./aRoller -c (ARGS)
 
-ARGS:
--c // new config
--os [win/osx/linux] // OS on host computer
--O [0/1] // Override OS check
--e [character encoding] // default utf-8
--u [account name] // Apply only while logged in specific account
--b [app bin] // *nix /usr/bin, win "C:\Program Files"
--a [apps, separated by commas]
--D [1/0] // Disable scroll
--S [-20/+20] // Scroll Speed. 0 default
--A [1/0] // Autostart on boot
--o [filename.conf] // output config 
-
--C [Config] // load config , no other args
--h // This help menu
+ARGS:<nl>
+- -c // new config
+- -os [win/osx/linux] // OS on host computer
+- -O [0/1] // Override OS check
+- -e [character encoding] // default utf-8
+- -u [account name] // Apply only while logged in specific account
+- -b [app bin] // *nix /usr/bin, win "C:\Program Files"
+- -a [apps, separated by commas]
+- -D [1/0] // Disable scroll
+- -S [-20/+20] // Scroll Speed. 0 default
+- -A [1/0] // Autostart on boot
+- -o [filename.conf] // output config 
+<br>
+- -C [Config] // load config , no other args
+- -h // This help menu
 
 Eg. Load config which already exists:
-./aScroller -C settings.conf
+
+> ./aScroller -C settings.conf
 > [OK] Configuration file loaded successfully
 
 Running aScroller with the -h or without arguments will 

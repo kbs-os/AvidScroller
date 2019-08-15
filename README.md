@@ -109,7 +109,7 @@ Building
 
 Download Avid Scroller from the GIT repository found here, and these commands:
 
-> git clone https://github.com/kbs-os/AvidScroller/edit/master <br>
+> git clone https://github.com/kbs-os/AvidScroller <br>
 > cmake <br>
 > make <br>
 > [sudo] make install <br>

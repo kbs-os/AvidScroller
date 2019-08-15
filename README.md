@@ -105,16 +105,12 @@ Requirements
 Building
 --------
 
-Download Avid Scroller from the GIT repository found here:
+Download Avid Scroller from the GIT repository found here, and these commands:
 
-  -> https://github.com/kbs-os/AvidScroller/edit/master
-
-Using the command line on your OS of choice, enter the 'build'
-folder and type:
-
-cmake
-make
-make install
+> git clone https://github.com/kbs-os/AvidScroller/edit/master <br>
+> cmake <br>
+> make <br>
+> [sudo] make install <br>
 
 Note: you may need to be super user for last command. Debian derived 
 Distributions add 'sudo' before make install.

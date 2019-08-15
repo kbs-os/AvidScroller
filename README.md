@@ -2,8 +2,8 @@ AVID SCROLLER & Simple Scroll Hook
 ----------------------------------
 <br>
 
-Scrolling Configuration Editor and Modifications
-Open Source and cross comparable : Windows/OSX/GNU-Linux
+Scrolling Configuration Editor and Modifications<br>
+Open Source and cross compatable : Windows/OSX/GNU-Linux
 
 - CLI (written in C)
 - GUI (written in Python)
@@ -170,13 +170,12 @@ ARGS:<nl>
 - -S [-20/+20] // Scroll Speed. 0 default
 - -A [1/0] // Autostart on boot
 - -o [filename.conf] // output config 
-<br>
 - -C [Config] // load config , no other args
 - -h // This help menu
 
 Eg. Load config which already exists:
 
-> ./aScroller -C settings.conf
+> ./aScroller -C settings.conf<br>
 > [OK] Configuration file loaded successfully
 
 Running aScroller with the -h or without arguments will 
@@ -186,13 +185,16 @@ It is not possible to tweak the configuration more by command line,
 However the generated output config will be heavily commented to
 Guide you through the process. Or the front end can load your CLI
 Generated config to farther customize.
-
+<br>
 
 Heirerarchy of Configuration
 ----------------------------
 
 Any configurations set for a future date will overwrite that
 of daily configurations. So please keep that in mind.
+
+<BR>
+  EOF 12.08.2019
 
 
 

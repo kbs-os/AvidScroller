@@ -1,6 +1,7 @@
-#######################################################################
-
 AVID SCROLLER & Simple Scroll Hook
+----------------------------------
+
+
 Scrolling Configuration Editor and Modifications
 Open Source and cross comparable : Windows/OSX/GNU-Linux
 
@@ -16,9 +17,10 @@ Written for 2019 competition with programmerhumor.com
 Simple Scroll Hook is a proof of Concept on the fly scroll speed changer
 Which shows how rediculous thecontest entry program is.
 
-#######################################################################
+
 LICENCE
-#######################################################################
+-------
+
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
@@ -44,7 +46,6 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org>
 
-#######################################################################
 
 
 What is Avid Scroller?
